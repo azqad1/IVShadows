@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# NeoForge / Minecraft dev runtime
+run/
+runs/
+logs/
+crash-reports/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE - Eclipse
+bin/
+.settings/
+.metadata/
+.classpath
+.project
+*.launch
+
+# IDE - VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.hs_err_pid*

@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="47"
+license="MIT"
+
+[[mods]]
+modId="ivshadows"
+version="1.0.0"
+displayName="IV Shadows for Iris"
+description='''
+Renders Immersive Vehicles (MTS) vehicle models into the Iris shadow pass so that vehicles cast proper shadows when a shader pack is active.
+'''
+
+[[dependencies.ivshadows]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ivshadows]]
+modId="mts"
+type="required"
+versionRange="*"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.ivshadows]]
+modId="iris"
+type="required"
+versionRange="*"
+ordering="NONE"
+side="CLIENT"

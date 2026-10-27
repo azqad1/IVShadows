@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "ivshadows.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GlShaderMixin",
+    "InterfaceRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
